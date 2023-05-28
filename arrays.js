@@ -65,6 +65,7 @@ companies.forEach(function (company) {
 // Arrow Function 
 
 const canDrink = ages.filter(age => age >= 21)
+console.log(canDrink);
 
 
 // Filter retail companies
