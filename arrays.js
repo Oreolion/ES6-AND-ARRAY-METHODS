@@ -103,6 +103,7 @@ console.log(lastTenYears)
 const companyNames = companies.map(function (company) {
     return company.name
 })
+console.log(companyNames);
 
 //const testMap = companies.map(function (company) {
  //   return `${company.name} [${company.start} - ${company.end}]`
@@ -110,6 +111,7 @@ const companyNames = companies.map(function (company) {
 
 //ARROW FUNCTION
 const testMap = companies.map(company => `${company.name} [${company.start} - ${company.end}]`)
+console.log(testMap);
 
 const ageMap = ages
     .map(age => Math.sqrt(age))
